@@ -16,11 +16,11 @@ const showAlert = (type, msg) => {
 };
 
 const login = async (email, password) => {
-  console.log(email, password);
+  // console.log(email, password);
   try {
     const res = await axios({
       method: "POST",
-      url: "http://localhost:3000/api/v1/users/login",
+      url: "/api/v1/users/login",
       data: {
         email,
         password,
@@ -41,7 +41,7 @@ const logout = async () => {
   try {
     const res = await axios({
       method: "GET",
-      url: "http://localhost:3000/api/v1/users/logout",
+      url: "/api/v1/users/logout",
     });
     if (res.data.status === "success") {
       location.reload(true);
@@ -55,8 +55,8 @@ const updateSettings = async (data, type) => {
   try {
     const url =
       type === "password"
-        ? "http://localhost:3000/api/v1/users/updateMyPassword"
-        : "http://localhost:3000/api/v1/users/updateMe";
+        ? "/api/v1/users/updateMyPassword"
+        : "/api/v1/users/updateMe";
 
     const res = await axios({
       method: "PATCH",
