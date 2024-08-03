@@ -40,3 +40,10 @@ check the [usage part in the package's doucmentation here](https://github.com/ht
 --
 
 # Bright Side of The Course:
+Although the course has porblems, you still can get the most out of the it and ace Node.js along with the other technologies in this course; simply becuase 76% of the problmes are just on the last 2 sections which one of them is github deployment which realitvely is not a Node.js of itself. Another thing that this course teaches you, which is in my humble opinion is the most important thing you can learn from, is that it builds for you a logical stamina, where you can stick with the problem for much longer trying to figure out a soultion that never been digged for before especially since it's out-dated; it allows you to read and understand code that you *didn't write* and debug it and solve it, it's a comrpehensive training that you can never get from any course and funny how, it was never meant to be like that, being an out-dated course was never an intention for Mr. Schmedtmann. But still, it stands the point.
+
+***Would I recommend it for beginners?*** Absolutely no. You see, if you're a beginner, and need to learn a new technology, finishing the project is one of the most important feedback you should have, a feedback that you won't get it here becasue it's crampled with problems right at the finish line. What would I recommend it for? Actually I wouldn't recommend it at all, You're someone having a course to learn a new thing, you need to provide a project in your portfolio to prove employers that you are indeed capable of dealing with the technology you're learning.
+
+What's the bright side for then if it's not recommended, you may ask; It's typically for learners like me, who got started the course and were stubborn enough to not refund/abandon it and search for some another course with a project that's more up-to-date.
+
+There is no course that is problem-free, but some problems are just out of hand and searching for solution would ruin the last working version of your project, that what happened to me personally while implementing webpack.
