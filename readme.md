@@ -38,3 +38,5 @@ check the [usage part in the package's doucmentation here](https://github.com/ht
 --
 6- Now there are exactly 3 problems here that are at this very point, remain unsolved, this particular porblem opens a gateway for 3 problems. The Parcel bundler simply doesn't just work, no matter how hard I try to go around it, it doesn't work, you'll find some porblems like *Cannot support import/export outside a module*, or *require() is not defined*. So far, the bundling solution was that I switched to webpack and bundling did work, but it made a second problem with stripe integration, where it doesn't accept it at all, exactly an error of *INCOMPLETE_CHUNKED_ENCODING 200(OK)* with a path to the bundling file. And the third problem is basically deployment because simply the webpack integration is incomplete. This repo doesn't include the webpack integration, but the problem remains.
 --
+
+# Bright Side of The Course:
